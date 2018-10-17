@@ -41,7 +41,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-		<version>2.6.3</version>
+			<version>2.8.11.1</version>
 	</dependency>
     </dependencies>
 
@@ -100,7 +100,7 @@
                                     <goal>hivemq</goal>
                                 </goals>
                                 <configuration>
-                                    <hiveMQDir>C:\Users\Nicolicioiul\Projects\Support-Tools\hivemq-plugin\hivemq-3.4.0</hiveMQDir>
+                                    <hiveMQDir>{path to hivemq location: }n\hivemq-3.4.0</hiveMQDir>
                                     <debugMode>NONE</debugMode>
                                 </configuration>
                             </execution>
